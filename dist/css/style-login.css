@@ -1,0 +1,67 @@
+#cont-login{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/bg-login.jpg");
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#cont-login .row{
+    justify-content: center;
+}
+
+#cont-login .row .login{
+    margin-top: 100px;
+    background: #ffff;
+    padding: 50px;
+    text-align: center;
+    max-width: 570px;
+}
+
+#cont-login .row .login img{
+    margin-bottom: 30px;
+}
+
+#cont-login .row .login h2{
+    color: #2472b5;
+}
+#cont-login .row .login form{
+    width: 350px;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+#cont-login .row .login form input{
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid #2472b5;
+    margin-bottom: 30px;
+}
+.btn-primary-chia{
+    background: #2472b5;
+    color: #ffff !important;
+    padding: 10px 40px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 12px !important;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn-primary-chia:hover {
+    background: #96bd26;
+}
+
+@media screen and (max-width:768px) and (min-width:320px){
+    
+    #cont-login{
+        background-position-x: left;
+        background-position-y: center;
+    }
+    #cont-login .row .login{
+        margin-top: 50px;
+        padding: 20px;
+    }
+}
